@@ -13,6 +13,10 @@ cd <repo-folder>
 
 ```bash
 npm install
+
+# Ensure to Run this command as it's not automatically included in `npm install`
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
 ```
 
 ## 3. (Optional) Check Node.js Version
