@@ -6,10 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "npx @biomejs/biome lint --write",
+    "lint:error": "npx @biomejs/biome lint --diagnostic-level=error",
+    "lint:ci": "npx @biomejs/biome lint",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@biomejs/biome": "^2.3.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.4",
@@ -20,8 +23,8 @@
     "@vercel/node": "^5.5.0",
     "firebase": "^12.4.0",
     "jszip": "^3.10.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

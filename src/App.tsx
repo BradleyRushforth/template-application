@@ -3,7 +3,7 @@
 
 import { Outlet } from '@tanstack/react-router';
 import Box from '@mui/material/Box';
-import NavBar from './components/NavBar';
+import NavBar from './shared/components/NavBar';
 
 export default function App() {
   return (

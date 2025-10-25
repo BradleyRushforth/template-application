@@ -5,11 +5,11 @@ import {
 } from '@tanstack/react-router';
 
 
-import LandingPage from './pages/LandingPage';
-import Dashboard from './pages/Dashboard';
-import AdminArea from './pages/AdminArea';
-import Connections from './pages/Connections';
-import PersonnelDetails from './pages/PersonnelDetails';
+import LandingPage from './frontends/landingPage/LandingPage';
+import Dashboard from './frontends/dashboard/Dashboard';
+import AdminArea from './frontends/adminArea/AdminArea';
+import Connections from './frontends/adminArea/components/Connections';
+import PersonnelDetails from './frontends/adminArea/components/PersonnelDetails';
 import App from './App';
 
 const rootRoute = new RootRoute({
